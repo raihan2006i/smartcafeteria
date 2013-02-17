@@ -10,3 +10,15 @@
    TODO customize this sample style
    Syntax recommendation http://www.w3.org/TR/REC-CSS2/
 */
+
+.food-item {
+  margin-right: 15px;
+}
+
+.food-item.has-alternative {
+  float: left;
+}
+
+.order h3 {
+  margin-right: 10px;
+}
