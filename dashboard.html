@@ -54,7 +54,7 @@
 
     <div class="container-fluid">
       <div class="span6">
-        <!--Sidebar content-->
+
         <div class="widget">
 
           <div class="widget-header">
@@ -68,17 +68,7 @@
 
               <div class="stat">
                 <span class="stat-value">12,386</span>
-								Site Visits
-              </div> <!-- /stat -->
-
-              <div class="stat">
-                <span class="stat-value">9,249</span>
-								Unique Visits
-              </div> <!-- /stat -->
-
-              <div class="stat">
-                <span class="stat-value">70%</span>
-								New Visits
+								Total Calories
               </div> <!-- /stat -->
 
             </div> <!-- /stats -->
@@ -87,12 +77,12 @@
             <div id="chart-stats" class="stats">
 
               <div class="stat stat-chart">
-                <div id="donut-chart" class="chart-holder"></div> <!-- #donut -->
+                <div id="donut-chart" class="chart-holder" style="width:370px;height:100px"></div> <!-- #donut -->
               </div> <!-- /substat -->
 
               <div class="stat stat-time">
                 <span class="stat-value">00:28:13</span>
-								Average Time on Site
+								Average Time on Cafeteria
               </div> <!-- /substat -->
 
             </div> <!-- /substats -->
@@ -100,58 +90,8 @@
           </div> <!-- /widget-content -->
 
         </div> <!-- /widget -->
-
-        <div class="widget widget-nopad">
-
-          <div class="widget-header">
-            <i class="icon-list-alt"></i>
-            <h3>Recent Comments</h3>
-          </div> <!-- /widget-header -->
-
-          <div class="widget-content">
-
-            <ul class="news-items">
-              <li>
-
-                <div class="news-item-detail">
-                  <a href="javascript:;" class="news-item-title">Duis aute irure dolor in reprehenderit</a>
-                  <p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-
-                <div class="news-item-date">
-                  <span class="news-item-day">08</span>
-                  <span class="news-item-month">Mar</span>
-                </div>
-              </li>
-              <li>
-                <div class="news-item-detail">
-                  <a href="javascript:;" class="news-item-title">Duis aute irure dolor in reprehenderit</a>
-                  <p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-
-                <div class="news-item-date">
-                  <span class="news-item-day">08</span>
-                  <span class="news-item-month">Mar</span>
-                </div>
-              </li>
-              <li>
-                <div class="news-item-detail">
-                  <a href="javascript:;" class="news-item-title">Duis aute irure dolor in reprehenderit</a>
-                  <p class="news-item-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-
-                <div class="news-item-date">
-                  <span class="news-item-day">08</span>
-                  <span class="news-item-month">Mar</span>
-                </div>
-              </li>
-            </ul>
-
-          </div> <!-- /widget-content -->
-
-        </div> <!-- /widget -->
-
       </div>
+
       <div class="span6">
 
         <!--Body content-->
@@ -165,17 +105,17 @@
           <div class="widget-content">
 
             <div class="shortcuts">
-              <a href="javascript:;" class="shortcut">
+              <a href="food-menu.html" class="shortcut">
                 <i class="shortcut-icon icon-food"></i>
                 <span class="shortcut-label">Food Menu</span>
               </a>
 
               <a href="javascript:;" class="shortcut">
-                <i class="shortcut-icon icon-bookmark"></i>
-                <span class="shortcut-label">Bookmarks</span>
+                <i class="shortcut-icon icon-star"></i>
+                <span class="shortcut-label">Favorites</span>
               </a>
 
-              <a href="javascript:;" class="shortcut">
+              <a href="report.html" class="shortcut">
                 <i class="shortcut-icon icon-signal"></i>
                 <span class="shortcut-label">Reports</span>
               </a>
@@ -209,16 +149,259 @@
           </div> <!-- /widget-content -->
 
         </div> <!-- /widget -->
+      </div>
 
-        <div class="widget">
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="span12">
+
+        <div class="widget widget-nopad">
 
           <div class="widget-header">
-            <i class="icon-signal"></i>
-            <h3>Calorie Chart</h3>
+            <i class="icon-food"></i>
+            <h3>Suggested Food Menu</h3>
           </div> <!-- /widget-header -->
 
           <div class="widget-content">
-            <div id="area-chart" class="chart-holder"></div>
+
+            <div class="span12">
+              <div class="pagination pagination-centered">
+                <ul>
+                  <li><a href="#">Prev</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">Next</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="span4">
+
+              <!--Body content-->
+              <div class="widget">
+
+                <div class="widget-header">
+                  <i class="icon-food"></i>
+                  <h3>Ridotto 1</h3>
+                  <div class="pull-right">
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-star"></i> Favorite</a>
+                    <span class="badge badge-success">2</span>
+                  </div>
+                </div> <!-- /widget-header -->
+
+                <div class="widget-content has-footer">
+
+                  <div class="tabbable"> <!-- Only required for left/right tabs -->
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#primo" data-toggle="tab">Primo</a></li>
+                      <li><a href="#secondo" data-toggle="tab">Secondo</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="primo">
+                        <div class="food-item has-alternative">
+                          <img src="assets/img/food-items/pasta1.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Pasta</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/rice2.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Rice</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/sauce.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Sauce</span>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="secondo">
+                        <div class="food-item has-alternative">
+                          <img src="assets/img/food-items/fish1.JPG" width="64px" height="64px" class="img-circle">
+                          <span>Fish</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/meat1.JPG" width="64px" height="64px" class="img-circle">
+                          <span>Meat</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/vegetable.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Vegetable</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- /widget-content -->
+
+                <div class="widget-footer">
+                  <div class="pull-left order">
+                    <h3>Total $20</h3>
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-shopping-cart"></i> Add to Cart</a>
+                  </div>
+                  <div class="pull-right">
+                    <div class="btn-group">
+                      <a class="btn btn-mini dropdown-toggle button-icon" data-toggle="dropdown" href="#"><i class="icon-share"></i> Share</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                      </ul>
+                    </div><!-- /btn-group -->
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-comment"></i> Comment</a>
+                  </div>
+                </div> <!-- /widget-header -->
+              </div> <!-- /widget -->
+            </div>
+
+            <div class="span4">
+
+              <!--Body content-->
+              <div class="widget">
+
+                <div class="widget-header">
+                  <i class="icon-food"></i>
+                  <h3>Ridotto 1</h3>
+                  <div class="pull-right">
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-star"></i> Favorite</a>
+                    <span class="badge badge-success">2</span>
+                  </div>
+                </div> <!-- /widget-header -->
+
+                <div class="widget-content has-footer">
+
+                  <div class="tabbable"> <!-- Only required for left/right tabs -->
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#primo" data-toggle="tab">Primo</a></li>
+                      <li><a href="#secondo" data-toggle="tab">Secondo</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="primo">
+                        <div class="food-item has-alternative">
+                          <img src="assets/img/food-items/pasta1.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Pasta</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/rice2.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Rice</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/sauce.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Sauce</span>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="secondo">
+                        <div class="food-item has-alternative">
+                          <img src="assets/img/food-items/fish1.JPG" width="64px" height="64px" class="img-circle">
+                          <span>Fish</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/meat1.JPG" width="64px" height="64px" class="img-circle">
+                          <span>Meat</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/vegetable.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Vegetable</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- /widget-content -->
+
+                <div class="widget-footer">
+                  <div class="pull-left order">
+                    <h3>Total $20</h3>
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-shopping-cart"></i> Add to Cart</a>
+                  </div>
+                  <div class="pull-right">
+                    <div class="btn-group">
+                      <a class="btn btn-mini dropdown-toggle button-icon" data-toggle="dropdown" href="#"><i class="icon-share"></i> Share</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                      </ul>
+                    </div><!-- /btn-group -->
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-comment"></i> Comment</a>
+                  </div>
+                </div> <!-- /widget-header -->
+              </div> <!-- /widget -->
+            </div>
+
+            <div class="span4">
+
+              <!--Body content-->
+              <div class="widget">
+
+                <div class="widget-header">
+                  <i class="icon-food"></i>
+                  <h3>Ridotto 1</h3>
+                  <div class="pull-right">
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-star"></i> Favorite</a>
+                    <span class="badge badge-success">2</span>
+                  </div>
+                </div> <!-- /widget-header -->
+
+                <div class="widget-content has-footer">
+
+                  <div class="tabbable"> <!-- Only required for left/right tabs -->
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#primo" data-toggle="tab">Primo</a></li>
+                      <li><a href="#secondo" data-toggle="tab">Secondo</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="primo">
+                        <div class="food-item has-alternative">
+                          <img src="assets/img/food-items/pasta1.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Pasta</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/rice2.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Rice</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/sauce.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Sauce</span>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="secondo">
+                        <div class="food-item has-alternative">
+                          <img src="assets/img/food-items/fish1.JPG" width="64px" height="64px" class="img-circle">
+                          <span>Fish</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/meat1.JPG" width="64px" height="64px" class="img-circle">
+                          <span>Meat</span>
+                        </div>
+                        <div class="food-item">
+                          <img src="assets/img/food-items/vegetable.jpg" width="64px" height="64px" class="img-circle">
+                          <span>Vegetable</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- /widget-content -->
+
+                <div class="widget-footer">
+                  <div class="pull-left order">
+                    <h3>Total $20</h3>
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-shopping-cart"></i> Add to Cart</a>
+                  </div>
+                  <div class="pull-right">
+                    <div class="btn-group">
+                      <a class="btn btn-mini dropdown-toggle button-icon" data-toggle="dropdown" href="#"><i class="icon-share"></i> Share</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                      </ul>
+                    </div><!-- /btn-group -->
+                    <a class="btn btn-mini button-icon" href="#"><i class="icon-comment"></i> Comment</a>
+                  </div>
+                </div> <!-- /widget-header -->
+              </div> <!-- /widget -->
+            </div>
+
           </div> <!-- /widget-content -->
 
         </div> <!-- /widget -->
@@ -252,9 +435,7 @@
     <script src="assets/js/jquery.flot.pie.js"></script>
     <script src="assets/js/jquery.flot.orderBars.js"></script>
     <script src="assets/js/jquery.flot.resize.js"></script>
-
-    <script src="assets/js/charts/area.js"></script>
-    <script src="assets/js/charts/donut.js"></script>
+    <script src="assets/js/jquery.flot.categories.js"></script>
 
     <script src="assets/js/bootstrap-transition.js"></script>
     <script src="assets/js/bootstrap-alert.js"></script>
@@ -268,5 +449,33 @@
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
+
+    <script type="text/javascript">
+      $(function () {
+
+        var data = [];
+
+        protein_per = Math.floor(Math.random()*100)+1;
+        fibers_per = Math.floor(Math.random()*100)+1;
+        sugars_per = Math.floor(Math.random()*100)+1;
+        sturated_fat_per = Math.floor(Math.random()*100)+1;
+
+        data[0] = { label: "Protein " + protein_per + " %", data: protein_per }
+        data[1] = { label: "Fibers " + fibers_per + " %", data: fibers_per }
+        data[2] = { label: "Sugars " + sugars_per + " %", data: sugars_per }
+        data[3] = { label: "Sturated Fat " + sturated_fat_per + " %", data: sturated_fat_per }
+
+        $.plot($("#donut-chart"), data,
+        {
+          colors: ["#F90", "#222", "#777", "#AAA"],
+          series: {
+            pie: {
+              innerRadius: 0.5,
+              show: true
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>

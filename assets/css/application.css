@@ -22,3 +22,10 @@
 .order h3 {
   margin-right: 10px;
 }
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
