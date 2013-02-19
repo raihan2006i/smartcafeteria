@@ -221,31 +221,4 @@
 
 
 @media (max-width: 480px) {
-	
-	.stats .stat {
-		
-		margin-bottom: 3em;
-	}
-	
-	.stats .stat .stat-value {
-		margin-bottom: .15em;
-		
-		font-size: 20px;
-	}
-	
-	.stats {
-		float: left;
-		
-		display: block;
-		
-		margin-bottom: 0;
-	}
-	
-	#chart-stats {
-		margin: 2em 0 1em;		
-	}
-	
-	.shortcuts .shortcut {
-		width: 48%;
-	}
 }
